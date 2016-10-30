@@ -31,6 +31,14 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="brand">MuffinTop</div>
     <div class="address-bar">Summer Row | Birmingham | B3 1JB</div>
@@ -86,9 +94,9 @@
                     <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <p>This is a great place to introduce your company or project and describe what you do.</p>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    <p>We at Muffin Top Savoury Muffin Company are a small group of 6 and each and every muffin that is made is made by one of us, so every muffin is special.</p>
+                    <p>Keep an eye out for our upcoming content of our developing kitchens and stay in touch with out facebook, twitter and instagram pages! Also sign up for our snapchat to see live the development of the muffins!</p>
+                    <p><a class="twitter-follow-button" href="https://twitter.com/muffintop_ltd"> Follow @MuffinTop</a></p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -161,6 +169,23 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+     t._e.push(f);
+    };
+
+     return t;
+    }(document, "script", "twitter-wjs"));</script>
 
 </body>
 
